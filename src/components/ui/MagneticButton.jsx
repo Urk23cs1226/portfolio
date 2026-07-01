@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 
-export default function MagneticButton({ children, className = '', onClick, type = 'button', href }) {
+export default function MagneticButton({ children, className = '', onClick, type = 'button', href, ...rest }) {
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -48,8 +48,8 @@ export default function MagneticButton({ children, className = '', onClick, type
 
   const Component = href ? 'a' : 'button';
   const props = href 
-    ? { href, target: href.startsWith('http') ? '_blank' : '_self', rel: href.startsWith('http') ? 'noopener noreferrer' : undefined } 
-    : { type, onClick };
+    ? { href, target: href.startsWith('http') ? '_blank' : '_self', rel: href.startsWith('http') ? 'noopener noreferrer' : undefined, ...rest } 
+    : { type, onClick, ...rest };
 
   return (
     <Component
