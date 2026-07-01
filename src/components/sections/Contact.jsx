@@ -56,7 +56,7 @@ export default function Contact() {
               <div className="space-y-4 pt-4">
                 <div className="flex items-center space-x-3 text-text-light/80">
                   <FaEnvelope className="text-accent-blue text-lg" />
-                  <span className="text-xs sm:text-sm font-body">ragunath.m@email.com</span>
+                  <span className="text-xs sm:text-sm font-body">ragunathm2005@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-text-light/80">
                   <FaPhone className="text-accent-purple text-lg" />

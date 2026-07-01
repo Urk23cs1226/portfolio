@@ -95,7 +95,7 @@ export default function Resume() {
 
             {/* Mock Footer */}
             <div className="flex items-center justify-between border-t border-white/10 pt-4 text-[9px] text-text-light/40 font-body">
-              <span>ragunath.m@email.com</span>
+              <span>ragunathm2005@gmail.com</span>
               <span>Trichy, TN</span>
             </div>
           </div>
