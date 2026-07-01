@@ -113,7 +113,7 @@ export default function Resume() {
 
           <div className="pt-4 flex justify-center md:justify-start">
             <MagneticButton
-              href="/resume.pdf"
+              href="/Ragunath_Resume.pdf"
               download="Ragunath_Resume.pdf"
               className="inline-flex items-center gap-3 px-6 sm:px-8 py-3.5 rounded-full bg-gradient-to-r from-accent-blue to-accent-purple text-bg-space font-semibold text-xs sm:text-sm shadow-[0_0_20px_rgba(145,94,255,0.3)] hover:shadow-[0_0_35px_rgba(145,94,255,0.65)] hover:scale-105 transition-all duration-300"
             >
